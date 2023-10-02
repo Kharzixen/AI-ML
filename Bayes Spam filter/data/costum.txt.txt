@@ -1,0 +1,38 @@
+
+
+Hey Mark,
+
+ 
+
+Quantum machine learning promises to be disruptive. The fusion of machine learning and quantum computing is still considered a conceptual domain but there are already some examples of its application to solve real-life problems. Google, Amazon, IBM, Microsoft, and a whole fleet of high-tech startups are striving to be the first to build and sell quantum machine learning systems.
+
+ 
+
+The opportunity to study a technology when it is about to prove its superiority is a unique opportunity, and one that you shouldn’t miss out on. That’s why I’m excited to share our latest course: 
+
+Hands-On Quantum Machine Learning with Python
+This course is for developers, programmers, students, and researchers who have some programming experience and want to become proficient in quantum machine learning. This course is your comprehensive guide to getting started with Quantum Machine Learning. In this course, you'll learn the basics of machine learning and quantum computing. You'll create parameterized quantum circuits and variational hybrid quantum-classical algorithms that solve classification tasks.
+
+Next, we have a new course that will make you a better Python programmer.  In the past few years, Python has exploded in popularity. With the rise in machine learning, data analysis, and web application development, many developers utilize Python for its powerful and abundant libraries, easy-to-learn syntax, and portability.
+
+Without a doubt, it’s a great time to be a Python developer, so check out this new course to improve your skills:
+
+Pythonic Programming Tips for Software Engineers
+This course is an invaluable resource for anyone who wants to learn the correct Pythonian way of writing highly performant code that is easy to maintain and grow. The course covers documentation tips, data types/data structures, safety, performance, and functional design. Throughout the course, you will get hands-on experience working with real Python code to help you learn each concept. By the end, you will know how to make your programs correct, safe, fast, and easy to maintain.
+
+ 
+
+Finally, have a new course on unit testing, which will give you hands-on practice with Jasmine:
+
+Using Jasmine to Unit Test Your JavaScript App
+Becoming a capable unit tester will help you discover bugs long before your users do and understand your code better. This course will teach you how to test functions and classes, mock dependencies, name the tests, test asynchronous code, Node.js code, and browser API-dependent code.
+
+
+A couple of weeks ago, we launched Personalized Learning Plans that provide a week-by-week curriculum based on your area of interest, skill level, and learning goals. Have you checked it out yet? I’d love your feedback.
+
+Happy learning!
+
+ 
+
+-- Fahim
+CEO & co-founder, educative.io
