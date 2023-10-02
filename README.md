@@ -1,9 +1,9 @@
 # AI-ML
 
 Artificial Intelligence and Machine learning projects, created during my university course
-# 1) A* pathfinding algorith,
+## 1) A* pathfinding algorith,
 __...__
-# 2) Bayes Spam filter
+## 2) Bayes Spam filter
   ### Project Overview
   The Bayesian Spam Filter project aims to identify whether an email is spam or not using Bayesian probability theory. It combines both supervised and unsupervised training methods to improve accuracy in classifying emails. The project utilizes a dataset of labeled emails to train a supervised classifier and employs unsupervised techniques like Naive Bayes to enhance spam detection.
   ### Features
@@ -28,8 +28,8 @@ __...__
     <img src="https://i.ibb.co/Jz80kPh/spam2.png" width=30% height=30%>
   </p>
 
-# 3) Game with AI using min-max tree
+## 3) Game with AI using min-max tree
 __...__
-# 4) Optical Character Recognition with preprocessed data
+## 4) Optical Character Recognition with preprocessed data
 __...__
 
