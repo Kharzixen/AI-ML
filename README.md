@@ -1,9 +1,25 @@
 # AI-ML
 
-Artificial Intelligence and Machine learning projects, created during my university course
-## 1) A* pathfinding algorith,
-__...__
-## 2) Bayes Spam filter
+  Artificial Intelligence and Machine learning projects, created during my university course
+* ## 1) A* pathfinding algorith,
+
+  ### Project Overview
+  Implementation of the A* search algorithm, a versatile and widely used pathfinding algorithm. It's designed to find the shortest path from a starting point to a target point on a graph or grid, taking into account the cost associated with each path. It utilizes a __priority queue__ (heap) to retrieve the most optimal next step and __Euclidean distance__ as the heuristic for estimating the cost to reach the goal. This combination allows for faster pathfinding on grids or graphs.
+
+  ### Algorithm Description
+  A* is an informed search algorithm that combines elements of Dijkstra's algorithm and a heuristic approach. It maintains two lists:
+
+  * Open List: A list of nodes to be evaluated.
+  * Closed List: A list of nodes that have already been evaluated.
+
+  The algorithm works by exploring the node with the lowest combined cost of the path from the start node to the current node (known as the __"g-cost"__) and the estimated cost from the current node to the goal node       (known as the "__h-cost__" or heuristic cost). The total cost is calculated as __f(n) = g(n) + h(n)__.
+
+  A* continues to expand nodes from the open list until it reaches the target node or exhausts all possible paths. It guarantees finding the shortest path if certain conditions are met:
+
+  * The heuristic function (h(n)) is admissible, meaning it never overestimates the true cost to reach the goal.
+  * The graph or grid does not have cycles with negative edge weights.
+
+* ## 2) Bayes Spam filter
   ### Project Overview
   The Bayesian Spam Filter project aims to identify whether an email is spam or not using Bayesian probability theory. It combines both supervised and unsupervised training methods to improve accuracy in classifying emails. The project utilizes a dataset of labeled emails to train a supervised classifier and employs unsupervised techniques like Naive Bayes to enhance spam detection.
   ### Features
@@ -25,11 +41,31 @@ __...__
   
   <p float="left">
     <img src="https://i.ibb.co/2qHK9NF/spam1.png" width=30% height=50%>
-    <img src="https://i.ibb.co/Jz80kPh/spam2.png" width=30% height=30%>
+    <img src="https://i.ibb.co/Jz80kPh/spam2.png" width=30% height=50%>
   </p>
 
-## 3) Game with AI using min-max tree
-__...__
-## 4) Optical Character Recognition with preprocessed data
-__...__
+* ## 3) Game with AI using min-max tree
+  __...__
+  
+* ## 4) Optical Character Recognition with preprocessed data
+    ###  Project Overview
+    Digit recognition is a fundamental problem in the field of optical character recognition and machine learning. This project aims to recognize handwritten digits (0-9) using various machine learning algorithms.
+
+    ### Dataset
+    The dataset used in this project consists of 65 long vectors to represent images. Each vector corresponds to a grayscale image of a handwritten digit. The brighter a pixel is, the larger the number in the vector      at that position. The last value (on the 64th index) of the vector is the represented digit.
+    __For example:__ The vector bellow represents this handwritten digit: 
+      <p float="left">
+        <img src="https://i.ibb.co/SRCpLwt/vector.png" width=300px height=200px>
+        <img src="https://i.ibb.co/TgSX80Q/number.png" width=300px height=200px>
+      </p>
+    We have used 3823 different digits for training and 1797 digits for testing the model, these vector are included in the OCR folder.
+  
+    ### Machine Learning Techniques:
+    * __k-Nearest Neighbors (kNN):__ The kNN algorithm is used for both learning and testing on the dataset. It supports two distance metrics: Euclidean distance and Cosine similarity.
+
+    * __Centroid Method:__ This method involves clustering the data by finding centroids for each digit class and then classifying new data points based on their similarity to these centroids.
+
+    * __Gradient Descent (SVM):__ Gradient Descent is used to learn weights and biases for a Support Vector Machine (SVM) classifier. The SVM classifier is used for binary digit classification.
+ 
+    The project evaluates the performance of each algorithm on both training and testing data. It reports classification errors and provides error percentages for each digit class.
 
