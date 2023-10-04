@@ -1,6 +1,6 @@
 # AI-ML
 
-  Artificial Intelligence and Machine learning projects, created during my university course
+  Artificial Intelligence and Machine learning projects
 * ## 1) A* pathfinding algorith,
 
   ### Project Overview
