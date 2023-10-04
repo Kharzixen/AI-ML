@@ -58,7 +58,7 @@
         <img src="https://i.ibb.co/SRCpLwt/vector.png" width=300px height=200px>
         <img src="https://i.ibb.co/TgSX80Q/number.png" width=300px height=200px>
       </p>
-    We have used 3823 different digits for training and 1797 digits for testing the model, these vector are included in the OCR folder.
+    We have used 3823 different digits for training and 1797 digits for testing the model, these vectors are included in the OCR folder.
   
     ### Machine Learning Techniques:
     * __k-Nearest Neighbors (kNN):__ The kNN algorithm is used for both learning and testing on the dataset. It supports two distance metrics: Euclidean distance and Cosine similarity.
